@@ -1,3 +1,4 @@
+// Create downsampled (50%) copies of everything with @2x in the name in the current directory.
 var im		= require('imagemagick'),
 	_		= require('underscore'),
 	glob	= require('glob');
